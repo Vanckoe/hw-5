@@ -10,8 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(appBar: AppBar(backgroundColor: Colors.amberAccent,),
-      body: Container(color: Colors.lightBlueAccent, child: Text("Hello! How are you doing? its my 3 App in flutter - Adil Talasbek")),)
+      home: Scaffold(appBar: AppBar(backgroundColor: Colors.lightBlue,),
+      body: Container(color: Colors.teal, child: Text("Karnakov Aisultan")),)
     );
   }
 }
